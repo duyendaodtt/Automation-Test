@@ -28,6 +28,16 @@ Given(/^I set header (.*) to (.*)$/, function (key, value) {
   spec.withHeaders(key, value);
 });
 
+Given(/^I set body as (.*) file$/, function(jsonFile) {
+  var filePath = '../requestBody/'+jsonFile+'.json';
+  const body = require(filePath);
+  try {
+      spec.withJson(body);
+    } catch(error) {
+      spec.withBody(body);
+    }
+});
+
 Given(/I set body to/, function (body) {
   try {
     spec.withJson(JSON.parse(body));
