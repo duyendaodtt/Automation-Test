@@ -43,6 +43,7 @@ Sample Step Definitions
     I set query param (.*) to (.*)
     I set header (.*) to (.*)
     I set basic authentication credentials (.*) and (.*)
+    I set body as {string} file
     I set body to
     I set multipart form data (.*) to (.*)
     I upload file at (.*)
