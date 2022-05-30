@@ -29,7 +29,7 @@ Feature: Regres
 ## Running Tests
 
 ```sh
-npm run test
+npm test; node index.js
 ```
 
 ## Gherkin Expressions
