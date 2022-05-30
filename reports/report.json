@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -44,11 +44,19 @@
             "line": 9,
             "name": "I receive a response",
             "match": {
+<<<<<<< Updated upstream
               "location": "features\\support\\steps.js:57"
             },
             "result": {
               "status": "passed",
               "duration": 946000000
+=======
+              "location": "features\\support\\steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025000000
+>>>>>>> Stashed changes
             }
           },
           {
@@ -57,7 +65,11 @@
             "line": 10,
             "name": "I expect response should have a status 200",
             "match": {
+<<<<<<< Updated upstream
               "location": "features\\support\\steps.js:61"
+=======
+              "location": "features\\support\\steps.js:51"
+>>>>>>> Stashed changes
             },
             "result": {
               "status": "passed",
@@ -75,11 +87,19 @@
             "line": 11,
             "name": "I expect response should have a json schema",
             "match": {
+<<<<<<< Updated upstream
               "location": "features\\support\\steps.js:89"
             },
             "result": {
               "status": "passed",
               "duration": 11000000
+=======
+              "location": "features\\support\\steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+>>>>>>> Stashed changes
             }
           },
           {
@@ -136,11 +156,19 @@
             "line": 38,
             "name": "I receive a response",
             "match": {
+<<<<<<< Updated upstream
               "location": "features\\support\\steps.js:57"
             },
             "result": {
               "status": "passed",
               "duration": 845000000
+=======
+              "location": "features\\support\\steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 884000000
+>>>>>>> Stashed changes
             }
           },
           {
@@ -149,12 +177,21 @@
             "line": 39,
             "name": "I expect response should have a status 400",
             "match": {
+<<<<<<< Updated upstream
               "location": "features\\support\\steps.js:61"
             },
             "result": {
               "status": "failed",
               "duration": 25000000,
               "error_message": "AssertionError [ERR_ASSERTION]: HTTP status 200 !== 400\n    + expected - actual\n\n    -200\n    +400\n\n    at Expect._validateStatus (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\node_modules\\pactum\\src\\models\\expect.js:96:14)\n    at Expect.validate (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\node_modules\\pactum\\src\\models\\expect.js:43:10)\n    at Have._validate (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\node_modules\\pactum\\src\\exports\\expect.js:99:26)\n    at Have.status (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\node_modules\\pactum\\src\\exports\\expect.js:14:10)\n    at World.<anonymous> (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\features\\support\\steps.js:62:31)"
+=======
+              "location": "features\\support\\steps.js:51"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 21000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: HTTP status 200 !== 400\n    + expected - actual\n\n    -200\n    +400\n\n    at Expect._validateStatus (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\node_modules\\pactum\\src\\models\\expect.js:96:14)\n    at Expect.validate (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\node_modules\\pactum\\src\\models\\expect.js:43:10)\n    at Have._validate (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\node_modules\\pactum\\src\\exports\\expect.js:99:26)\n    at Have.status (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\node_modules\\pactum\\src\\exports\\expect.js:14:10)\n    at World.<anonymous> (C:\\Users\\MyPC\\Documents\\GitHub\\API auto-demo\\Automation-Test\\features\\support\\steps.js:52:31)"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -162,6 +199,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 1000000
             }
           }
@@ -251,6 +289,10 @@
               "status": "passed",
               "duration": 1000000
             }
+=======
+              "duration": 0
+            }
+>>>>>>> Stashed changes
           }
         ],
         "tags": [],
@@ -260,7 +302,11 @@
         "description": "",
         "id": "request;testing-post-api",
         "keyword": "Scenario",
+<<<<<<< Updated upstream
         "line": 48,
+=======
+        "line": 41,
+>>>>>>> Stashed changes
         "name": "Testing POST API",
         "steps": [
           {
@@ -282,19 +328,29 @@
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< Updated upstream
             "line": 49,
             "name": "I make a POST request to api/v1/Activities",
+=======
+            "line": 42,
+            "name": "I make a POST request to https://fakerestapi.azurewebsites.net/api/v1/Activities",
+>>>>>>> Stashed changes
             "match": {
               "location": "features\\support\\steps.js:11"
             },
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 1000000
+=======
+              "duration": 0
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [
               {
+<<<<<<< Updated upstream
                 "content": "  {\n    \"id\": 1,\n    \"title\": \"Title Here\",\n    \"dueDate\": \"2022-05-12T09:38:55.267Z\",\n    \"completed\": true\n  }",
                 "line": 51
               }
@@ -308,11 +364,27 @@
             "result": {
               "status": "passed",
               "duration": 1000000
+=======
+                "content": "{\n   \"id\": 1,\n   \"title\": \"Title Here\",\n   \"dueDate\": \"2022-05-12T09:38:55.267Z\",\n   \"completed\": true\n }",
+                "line": 44
+              }
+            ],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I set body to",
+            "match": {
+              "location": "features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+<<<<<<< Updated upstream
             "line": 59,
             "name": "I receive a response",
             "match": {
@@ -321,15 +393,32 @@
             "result": {
               "status": "passed",
               "duration": 847000000
+=======
+            "line": 52,
+            "name": "I receive a response",
+            "match": {
+              "location": "features\\support\\steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879000000
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< Updated upstream
             "line": 60,
             "name": "I expect response should have a status 200",
             "match": {
               "location": "features\\support\\steps.js:61"
+=======
+            "line": 53,
+            "name": "I expect response should have a status 200",
+            "match": {
+              "location": "features\\support\\steps.js:51"
+>>>>>>> Stashed changes
             },
             "result": {
               "status": "passed",
@@ -339,6 +428,7 @@
           {
             "arguments": [
               {
+<<<<<<< Updated upstream
                 "content": "  {\n    \"id\": 1\n  }",
                 "line": 62
               }
@@ -352,11 +442,27 @@
             "result": {
               "status": "passed",
               "duration": 1000000
+=======
+                "content": "{\n  \"id\": 1\n}",
+                "line": 55
+              }
+            ],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I expect response should have a json like",
+            "match": {
+              "location": "features\\support\\steps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [
               {
+<<<<<<< Updated upstream
                 "content": "  {\n    \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n    \"type\": \"object\",\n    \"properties\": {\n      \"id\": {\n        \"type\": \"integer\"\n      },\n      \"title\": {\n        \"type\": \"string\"\n      },\n      \"dueDate\": {\n        \"type\": \"string\"\n      },\n      \"completed\": {\n        \"type\": \"boolean\"\n      }\n    }\n  }",
                 "line": 68
               }
@@ -366,6 +472,17 @@
             "name": "I expect response should have a json schema",
             "match": {
               "location": "features\\support\\steps.js:89"
+=======
+                "content": "{\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\"\n    },\n    \"title\": {\n      \"type\": \"string\"\n    },\n    \"dueDate\": {\n      \"type\": \"string\"\n    },\n    \"completed\": {\n      \"type\": \"boolean\"\n    }\n  }\n}",
+                "line": 61
+              }
+            ],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I expect response should have a json schema",
+            "match": {
+              "location": "features\\support\\steps.js:79"
+>>>>>>> Stashed changes
             },
             "result": {
               "status": "passed",
@@ -377,7 +494,117 @@
             "hidden": true,
             "result": {
               "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "request;testing-put-api",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "Testing PUT API",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
               "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 83,
+            "name": "I make a PUT request to https://fakerestapi.azurewebsites.net/api/v1/Activities/1",
+            "match": {
+              "location": "features\\support\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "content": "{\n   \"id\": 1,\n   \"title\": \"string\",\n   \"dueDate\": \"2022-05-12T09:42:21.790Z\",\n   \"completed\": true\n }",
+                "line": 85
+              }
+            ],
+            "keyword": "And ",
+            "line": 84,
+            "name": "I set body to",
+            "match": {
+              "location": "features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 93,
+            "name": "I receive a response",
+            "match": {
+              "location": "features\\support\\steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 94,
+            "name": "I expect response should have a status 200",
+            "match": {
+              "location": "features\\support\\steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "content": "{\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\"\n    },\n    \"title\": {\n      \"type\": \"string\"\n    },\n    \"dueDate\": {\n      \"type\": \"string\"\n    },\n    \"completed\": {\n      \"type\": \"boolean\"\n    }\n  }\n}",
+                "line": 96
+              }
+            ],
+            "keyword": "And ",
+            "line": 95,
+            "name": "I expect response should have a json schema",
+            "match": {
+              "location": "features\\support\\steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ],
@@ -500,6 +727,10 @@
     "keyword": "Feature",
     "name": "Request",
     "tags": [],
+<<<<<<< Updated upstream
     "uri": "features\\featureFiles\\Regres.feature"
+=======
+    "uri": "features\\Regres.feature"
+>>>>>>> Stashed changes
   }
 ]

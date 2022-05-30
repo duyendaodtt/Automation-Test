@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 	Logged for Scenario: "Get Activities" at 5/12/2022 11:57:16 AM
  Response Code: 200
@@ -706,3 +707,5 @@
  Response Body:
 {"id":1,"title":"string","dueDate":"2022-05-12T09:42:21.79Z","completed":true}
  
+=======
+>>>>>>> Stashed changes
